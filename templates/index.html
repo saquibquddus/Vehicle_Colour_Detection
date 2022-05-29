@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vehicle Color Detection</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+  </head>
+  <body>
+    <div class="App">
+      <header class="App-header">
+        <p><u>Vehicle Color Detection </u></p>
+        <div className="pre_img">
+          <span><img id="imagebox" src="" /></span>
+        </div> 
+        <div id="link">
+          <a href="" id="download" download>Download</a>
+        </div>
+
+        <form>
+        <div id="img1"> 
+          <label for="imageinput">Enter the Image or Video:</label>
+          <input id="imageinput" type="file" name="image" required="required" onchange="readUrl(this)" />
+        </div> 
+
+        </form>
+        <button name="send" id="sendbutton">Click here to start Detection</button>
+      </header>
+    </div>
+  </body>
+</html>

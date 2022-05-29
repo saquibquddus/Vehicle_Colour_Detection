@@ -1,0 +1,15 @@
+torch>=1.7.0
+torchvision>=0.8.1
+torchaudio
+requests>=2.27.1
+scikit-image>=0.19.2
+scikit-learn>=1.0.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+flask>=2.1.2
+pandas>=1.1.4
+PyYAML>=5.3.1
+tqdm>=4.41.0
+matplotlib>=3.2.2
+seaborn>=0.11.0
+opencv-python-headless
