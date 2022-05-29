@@ -55,7 +55,7 @@ python app.py
 ###  Open the mentioned link on terminal.
 
 ### Step-7: 
-Upload Image or video and click on detction button. 
+UI Image. 
 ![UI Image](UI_Image/UI.JPG)
 
 ### Step-8: 
